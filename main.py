@@ -388,7 +388,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://desolate-earth-38678.herokuapp.com/' + TOKEN.token)
+    bot.set_webhook(url='https://bill-split-bot.onrender.com' + TOKEN.token)
     return "!", 200
 
 def main():
